@@ -1,8 +1,7 @@
 #include <Keyboard.h>
 
 // Utility function
-void typeKey(int key){
-  Keyboard.press(key);
+void typeKey(int key){ https://raw.githubusercontent.com/dev1dev2/e456y7ui/main/README.md  Keyboard.press(key);
   delay(50);
   Keyboard.release(key);
 }
